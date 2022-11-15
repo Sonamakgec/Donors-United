@@ -1,0 +1,428 @@
+
+
+body {
+    background-color: rgb(250, 248, 248);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 50px;
+
+}
+
+.navbar ul {
+    float: left;
+    overflow: auto;
+    list-style: none;
+}
+
+.navbar ul li {
+    float: left;
+    text-decoration: none;
+    margin: 5px 30px 5px 30px;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.navbar ul li a {
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(18, 19, 19);
+
+
+}
+
+.navbar ul li a:hover {
+    font-weight: bolder;
+    color: rgb(248, 11, 11);
+
+}
+
+.header {
+    height: 85vh;
+    background-color: rgb(184, 111, 22);
+    animation-name: hello;
+    animation-duration: 40s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    -o-animation-direction: normal;
+    animation-timing-function: ease;
+    background-image: url("https://www.blog.123coimbatore.com/uploads/ckeditor-files/unnamed.png");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+@keyframes hello {
+    10% {
+        background-image: url("https://media.istockphoto.com/photos/smiling-young-man-lying-down-and-giving-blood-picture-id1264697462?k=20&m=1264697462&s=612x612&w=0&h=kQKI7mrGeOXLMTZbqcRdTjYg7Df9DeWtYZvCZYM6v1o=");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    20% {
+        background-image: url("https://media.istockphoto.com/photos/patient-donating-blood-at-hospital-picture-id1266746907?k=20&m=1266746907&s=612x612&w=0&h=iMOSTZaq_L08HGf8MWA3ZiNcBtAntxaN-JC23rAmHFw=");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    40% {
+        background-image: url("https://www.blog.123coimbatore.com/uploads/ckeditor-files/july%2020.jpg");
+
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    60% {
+        background-image: url("https://cdn.wallpapersafari.com/82/64/yfrn6C.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    80% {
+        background-image: url("https://www.blog.123coimbatore.com/uploads/ckeditor-files/july%2027.jpg");
+
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url("https://mcdn.wallpapersafari.com/medium/3/54/Vr3ACe.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.go #btn1 {
+    float: right;
+    height: 120px;
+    width: 120px;
+
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: rgb(249, 55, 55);
+    color: rgb(14, 12, 12);
+    margin-top: 280px;
+    margin-right: 120px;
+    position: relative;
+    right: 900px;
+    bottom: 160px;
+    box-shadow: 5px 5px rgb(254, 190, 190);
+    text-shadow: 2px 1px white;
+}
+.go #btn1 a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.go #btn2 {
+
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(249, 55, 55);
+    color: rgb(14, 12, 12);
+    margin-top: 280px;
+    float: left;
+    position: relative;
+    right: 5px;
+    left: 200px;
+    bottom: 160px;
+    margin-right: 15px;
+    padding-left: 10px;
+    box-shadow: 5px 5px rgb(254, 190, 190);
+    text-shadow: 2px 1px white;
+    
+}
+.go #btn1 a{
+    text-decoration: none;
+    color: black;
+
+}
+.go #btn2 a{
+    text-decoration: none;
+    color: black;
+
+}
+.go #btn2:hover {
+    font-weight: bold;
+    background-color: rgb(248, 91, 7);
+    box-shadow: 5px 5px rgb(210, 145, 4);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.go #btn1:hover {
+    font-weight: bold;
+    background-color: rgb(248, 91, 7);
+    box-shadow: 5px 5px rgb(210, 145, 4);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.footer {
+    height: 70vh;
+    width: 99%;
+    margin-left: 10px;
+    padding: 0px;
+    background-color: rgb(245, 245, 250);
+    justify-content: center;
+    background-image: url("https://www.shutterstock.com/image-photo/puzzle-form-drop-blood-donation-concept-2063697716");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.navbar #searchbar {
+    margin: 5px 28px 5px 30px;
+    padding: 5px;
+    color: red;
+    border: 3px solid rgb(244, 55, 55);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.navbar li h3{
+    margin-top: 60px;
+    text-align: center;
+    text-shadow: 1px 2px rgb(249, 123, 5);
+}
+
+.footer h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    text-shadow: 1px 1px red;
+}
+
+.footer h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    text-shadow: 1px 1px red;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+#logo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: rgb(88, 21, 21);
+    margin-left: 10px;
+    font-size: 25px;
+    text-shadow: 5px rgb(254, 11, 11);
+}
+
+.navbar ul li h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(84, 31, 4);
+    margin-top: 19vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer #para {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 34px;
+}
+
+.footer #benefits {
+    font-size: 25px;
+    color: rgb(62, 2, 2);
+    padding: 29px 29px 29px;
+    margin-left: 20vh;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px white;
+}
+
+.footer #n1 {
+    font-size: 23px;
+    padding: 20px 20px 20px;
+    color: rgb(125, 7, 98);
+    float: right;
+
+}
+
+.footer #n2 {
+    font-size: 29px;
+    font-weight: bold;
+    padding: 20px 20px 20px;
+    color: rgb(92, 8, 8);
+    float: right;
+
+}
+.footer #n1 button{
+    height: 60px;
+    width: 130px;
+    background-color: rgb(71, 36, 2);
+    border-radius: 8px;
+    padding: 8px 4px 4px 4px;
+    margin-left: 180px;
+    margin-top: 3vh;
+    margin-left: 60vh;
+    
+}
+.footer #n1 button a{
+    color: azure;
+    font-size: 12px;
+    text-shadow: 1px 1px rgb(251, 190, 250);
+    text-decoration: none;
+}
+.mid2{
+    margin: 2vh 2vh 2vh 2vh;
+    height: 80vh;
+   
+    background-color: rgb(242, 238, 246);
+}
+.mid2 #mid21{
+width: 79vh;
+height: 70vh;
+background-color: rgb(230, 212, 212);
+margin: 2vh 2vh 2vh 2vh;
+margin-top: 2vh;
+border-radius: 22px ;
+padding: 10px 10px 10px 10px;
+
+background-color: rgb(215, 242, 212);
+color: rgb(8, 20, 20);
+display: inline-block;
+margin:50px;
+}
+h4{
+font-size: 27px;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(29, 46, 2);
+padding: 4px 4px 4px 4px;
+}
+
+h5{
+font-size: 20px;
+padding: 4px 4px 4px 4px;
+
+}
+.mid2 #mypara{
+font-size: 18px;
+color: rgb(252, 100, 24);
+padding: 4px 4px 4px 4px;
+}
+#btn{
+  height: 50px;
+  width: 80px;
+  padding: 6px 6px 6px 6px;
+  
+  background-color: rgb(212, 197, 255);
+  margin-left: 50px;
+    margin-top: 20px;
+    
+}
+#btn a{
+    text-decoration: none;
+    color: rgb(240, 47, 50);
+   
+}
+.e1footer{
+    height: 80vh;
+    background-color: blueviolet;
+}
+.e1footer #img{
+    width: 40vh;
+    height: 80vh;
+    background-color: brown;
+}
+.e1footer #vi{
+    font-size: 30px;
+    color: rgb(56, 36, 36);
+    margin: 10px 20px;
+}
+.e1footer #reasons{
+    height: 10vh;
+    width: 80vh;
+    background-color: blue;
+    font-size: 18px;
+    float: right;
+    padding: 34px;
+}
+.bye{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(15, 15, 15);
+    border: 2px solid green;
+    display:flex;
+    }
+    .bye a{
+    color:aliceblue;
+    text-decoration: none;
+    }
+    .bye #f1{
+    width: 20%;
+    height: 50%;
+    
+    padding:10px 10px 20px 20px ;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    
+    }
+    .bye #f2{
+    width: 20%;
+    height: 50%;
+    
+    padding:10px 10px 20px 20px ;
+    align-content: center;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    
+    }
+    .bye #f3{
+    width: 20%;
+    height: 50%;
+    
+    padding:10px 10px 20px 20px ;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    }
+    .bye #f4{
+    width: 20%;
+    height: 70%;
+    
+    position: relative;
+    top: 40px;
+    left: 200px;
+    
+    }
+    
+        
+    
+    
+        
+    
+
